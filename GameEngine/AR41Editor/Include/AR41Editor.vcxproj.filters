@@ -1,0 +1,1114 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="소스 파일">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;c++;cppm;ixx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="헤더 파일">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;h++;hm;inl;inc;ipp;xsd</Extensions>
+    </Filter>
+    <Filter Include="리소스 파일">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="03. Scene">
+      <UniqueIdentifier>{69cc969f-2234-4590-af0a-c80c6c3abaee}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="04. Window">
+      <UniqueIdentifier>{d3e38859-3502-45d1-a6b2-dac10142a23b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="04. Window\01. Object">
+      <UniqueIdentifier>{0bab4a8b-53a1-4114-85d0-478eb450b2bb}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="04. Window\02. Class">
+      <UniqueIdentifier>{82704a95-f134-4078-91c0-29f9d081a1a7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="04. Window\03. Component">
+      <UniqueIdentifier>{8a829d8b-f6b3-4ba7-9f96-fdaed1d9b6c5}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="04. Window\04. Transform">
+      <UniqueIdentifier>{466d47a6-7ac4-4e16-8117-94c1007378f7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="04. Window\05. Scene">
+      <UniqueIdentifier>{2d04fb19-0aa1-4474-80f9-5aac17732411}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="04. Window\06. Detail">
+      <UniqueIdentifier>{e66b59e7-674a-479f-8403-d84c2d9fe8db}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="04. Window\07. Animation">
+      <UniqueIdentifier>{6861ab56-fd6e-46cb-9202-c6226466dd1f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="04. Window\Test">
+      <UniqueIdentifier>{4ca15b82-8fd7-40d4-b963-82c7debcac44}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="05. GameObject">
+      <UniqueIdentifier>{c5c74a37-4abb-43f1-a0c4-a77d73524011}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02. Setting">
+      <UniqueIdentifier>{4ca7a8de-af50-454e-b58a-9fe934c43177}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="04. Window\08. UI">
+      <UniqueIdentifier>{b1829a00-c967-4ef0-8008-97d882d60e96}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="04. Window\06. Detail\01. ComponentType">
+      <UniqueIdentifier>{3e27cbe9-b87d-4b5d-8ecc-d709e7c5f772}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="04. Window\06. Detail\01. ComponentType\01. SceneComponentType">
+      <UniqueIdentifier>{f3ac5923-a3a9-4240-86e2-163dc5e9a7c1}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="07. Animation2D">
+      <UniqueIdentifier>{eb9bf917-9308-4735-9f26-dd403f6733da}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="01. EditorManager">
+      <UniqueIdentifier>{8b0e3577-d9e3-4cf0-9c73-119f5f9f8338}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="06. UI">
+      <UniqueIdentifier>{3a27387b-4781-4e93-9388-1cff07776c8f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="03. Scene\01. MainScene">
+      <UniqueIdentifier>{f3f9e0fa-cdaf-4d3b-ac64-eedb6d0110e2}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="06. UI\01. MainUI">
+      <UniqueIdentifier>{4c7e6a1e-6422-4912-bb8f-fac473506697}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="06. UI\02. LoadingUI">
+      <UniqueIdentifier>{839f437f-653b-483e-97da-0835462f4a1b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="05. GameObject\01. MainScene">
+      <UniqueIdentifier>{3bad0c11-3f40-4cd8-beb1-394e0453c08c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="04. Window\08. UI\UIWidget">
+      <UniqueIdentifier>{56094383-2d90-4906-887b-e4502f4a0a7f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="04. Window\09. TIleMap">
+      <UniqueIdentifier>{eb59bd1e-35b4-45ea-abee-3e34b06b1764}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="03. Scene\99. LoadingScene">
+      <UniqueIdentifier>{d78a08d9-db9f-42aa-b0a6-2a9c126ec551}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="03. Scene\02. TownScene">
+      <UniqueIdentifier>{df1d0bdc-175f-45d8-97cf-77d2d3f45b83}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="05. GameObject\02. Character">
+      <UniqueIdentifier>{a594f2ed-5389-4b67-a17b-593b4c3e4a51}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="07. Animation2D\01. Character">
+      <UniqueIdentifier>{f7ca63e9-3da2-4b3d-bcff-d1030e4b4406}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="06. UI\03. Character">
+      <UniqueIdentifier>{47112324-4613-4928-a709-1cd1c7768e9b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="05. GameObject\03. Monster">
+      <UniqueIdentifier>{1dd65c9c-ecd3-4928-b3fc-92a0198399c0}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="07. Animation2D\02. Monster">
+      <UniqueIdentifier>{aab6411a-8677-4cfc-aafc-38959c8c9330}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="07. Animation2D\01. Character\01. Costume">
+      <UniqueIdentifier>{863be5fd-1c01-45ae-acfa-a8325ae84c91}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="07. Animation2D\01. Character\02. Effect">
+      <UniqueIdentifier>{cb63c0b3-cd36-40e1-a4e6-ac76695cad48}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="07. Animation2D\03. Weapon">
+      <UniqueIdentifier>{5243a404-061c-4d75-8ad3-db65b2fcd0bf}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="05. GameObject\02. Character\01. Character">
+      <UniqueIdentifier>{72d9c951-4611-4589-adf6-a14f74964f27}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="05. GameObject\02. Character\02. Effect">
+      <UniqueIdentifier>{8018e3da-662f-4ee1-aba6-d7cea61a268b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="05. GameObject\05. WeaponEffect">
+      <UniqueIdentifier>{ee83f68c-f643-4d0e-8537-164848e4aa22}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="05. GameObject\03. Monster\01. Effect">
+      <UniqueIdentifier>{1b56b753-9449-4708-b278-ce4d9495b410}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="05. GameObject\03. Monster\02. SkelSword">
+      <UniqueIdentifier>{636a49d8-4973-4634-a92f-351e89ec1040}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="05. GameObject\03. Monster\03. SkelBow">
+      <UniqueIdentifier>{ca3e14c1-9396-4845-bb28-c1df532c0442}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="07. Animation2D\02. Monster\01. Effect">
+      <UniqueIdentifier>{d3025b84-d7e3-41b6-8d1d-b5e9e8d37024}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="07. Animation2D\02. Monster\02. Skel">
+      <UniqueIdentifier>{a5844487-c902-437a-88e1-b19537c446dd}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="05. GameObject\06. Boss">
+      <UniqueIdentifier>{969a5a25-19db-49dc-9b96-8e4aa189b8c6}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="07. Animation2D\04. Boss">
+      <UniqueIdentifier>{148227a5-9e2e-4855-8dbe-56661a4cb0a2}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="03. Scene\03. BossEntranceScene">
+      <UniqueIdentifier>{18abe3a2-1fba-4de5-abf6-f53306b0e921}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="03. Scene\04. BossScene">
+      <UniqueIdentifier>{cb62653a-d772-4025-aeeb-16f4f9a22f0f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="06. UI\04. Boss">
+      <UniqueIdentifier>{7aedefc3-5fb2-4b36-9bbb-30d645925421}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="05. GameObject\04. Map">
+      <UniqueIdentifier>{a557b36b-212d-4fe7-953f-8acd290183a6}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="08. TransferInfo">
+      <UniqueIdentifier>{0f7bfe5b-6541-4c81-868a-91560e22d41a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="07. Animation2D\05. Object">
+      <UniqueIdentifier>{8851cf9a-a8f4-46fc-8c04-ad836d9f6897}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="03. Scene\05. NormalScene">
+      <UniqueIdentifier>{c3b155ae-570f-45da-bee5-6995e77d8e56}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="05. GameObject\04. Map\01. Boss">
+      <UniqueIdentifier>{513b21a9-ff2b-4b80-a9c1-24c26489badf}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="05. GameObject\04. Map\02. Normal">
+      <UniqueIdentifier>{8e33c138-acab-4dc9-a0c1-d315841aff7b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="05. GameObject\03. Monster\04. Banshee">
+      <UniqueIdentifier>{c4c53ebf-37ed-45aa-9173-21109d0d5657}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="07. Animation2D\02. Monster\03. Banshee">
+      <UniqueIdentifier>{fae63d35-f61a-4acf-8351-ef10d65f1ea4}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="07. Animation2D\02. Monster\04. Bat">
+      <UniqueIdentifier>{5cacdecc-e34f-4c7a-853a-76b6973ea425}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="07. Animation2D\02. Monster\04. Bat\01. Normal">
+      <UniqueIdentifier>{7a383e67-0f4f-47c6-a204-3bbcd9722e26}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="07. Animation2D\02. Monster\04. Bat\02. Red">
+      <UniqueIdentifier>{43e7e6ad-34db-4557-ae4d-010299f13cf5}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="07. Animation2D\02. Monster\04. Bat\03. GiantNormal">
+      <UniqueIdentifier>{713f89cf-74e5-49d1-919b-341a8a87bedc}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="07. Animation2D\02. Monster\04. Bat\04. GiantRed">
+      <UniqueIdentifier>{51573b08-3f3a-4b41-85ec-a8d809a8466e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="05. GameObject\03. Monster\05. Bat">
+      <UniqueIdentifier>{68a293f0-7d05-4f73-8530-e4505fe7dbeb}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="05. GameObject\03. Monster\05. Bat\01. Normal">
+      <UniqueIdentifier>{03913a66-133d-4f6e-a00c-18af2dd06efa}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="05. GameObject\03. Monster\05. Bat\02. Red">
+      <UniqueIdentifier>{7ffc87fa-160e-4452-809a-d2dca23fe965}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="05. GameObject\03. Monster\05. Bat\03. GiantNormal">
+      <UniqueIdentifier>{d92bba30-9b1f-4a8e-89a1-2d119e089a73}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="05. GameObject\03. Monster\05. Bat\04. GiantRed">
+      <UniqueIdentifier>{5f9ec443-b32e-4448-a054-af03adcb2d28}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="07. Animation2D\02. Monster\05. Ghost">
+      <UniqueIdentifier>{23b42996-8507-4a4c-bb70-945555795784}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="05. GameObject\03. Monster\06. Ghost">
+      <UniqueIdentifier>{2bc667fa-fc18-401a-8215-7c5edf45c250}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="05. GameObject\07. Object">
+      <UniqueIdentifier>{97c0b36f-ff8f-4af8-8e03-357dc3c58572}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="03. Scene\06. EndingScene">
+      <UniqueIdentifier>{bb8a7477-3323-4977-9606-7b0e8147ed13}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="05. GameObject\08. EndingScene">
+      <UniqueIdentifier>{03dd3422-ea3d-4bf1-9bb1-b3b30198fdef}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="07. Animation2D\06. EndingScene">
+      <UniqueIdentifier>{47c00d1e-0739-4f2c-a80f-927a469b0aed}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="06. UI\05. EndingUI">
+      <UniqueIdentifier>{8bbeacbc-8e14-4f16-9941-ff95f8cfe021}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="main.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="EditorManager.cpp">
+      <Filter>01. EditorManager</Filter>
+    </ClCompile>
+    <ClCompile Include="Scene\EditorDefaultScene.cpp">
+      <Filter>03. Scene</Filter>
+    </ClCompile>
+    <ClCompile Include="Window\ObjectWindow.cpp">
+      <Filter>04. Window\01. Object</Filter>
+    </ClCompile>
+    <ClCompile Include="GameObject\Bullet.cpp">
+      <Filter>05. GameObject</Filter>
+    </ClCompile>
+    <ClCompile Include="GameObject\Player2D.cpp">
+      <Filter>05. GameObject</Filter>
+    </ClCompile>
+    <ClCompile Include="Window\ClassWindow.cpp">
+      <Filter>04. Window\02. Class</Filter>
+    </ClCompile>
+    <ClCompile Include="Window\ComponentWindow.cpp">
+      <Filter>04. Window\03. Component</Filter>
+    </ClCompile>
+    <ClCompile Include="Window\TransformWindow.cpp">
+      <Filter>04. Window\04. Transform</Filter>
+    </ClCompile>
+    <ClCompile Include="Window\SceneWindow.cpp">
+      <Filter>04. Window\05. Scene</Filter>
+    </ClCompile>
+    <ClCompile Include="Window\DetailWindow.cpp">
+      <Filter>04. Window\06. Detail</Filter>
+    </ClCompile>
+    <ClCompile Include="UI\StartSceneUI.cpp">
+      <Filter>06. UI</Filter>
+    </ClCompile>
+    <ClCompile Include="Window\TestWindow.cpp">
+      <Filter>04. Window\Test</Filter>
+    </ClCompile>
+    <ClCompile Include="Setting\DefaultSetting.cpp">
+      <Filter>02. Setting</Filter>
+    </ClCompile>
+    <ClCompile Include="Setting\EngineShareSetting.cpp">
+      <Filter>02. Setting</Filter>
+    </ClCompile>
+    <ClCompile Include="Scene\TestSceneInfo.cpp">
+      <Filter>03. Scene</Filter>
+    </ClCompile>
+    <ClCompile Include="Window\EditorUIWindow.cpp">
+      <Filter>04. Window\08. UI</Filter>
+    </ClCompile>
+    <ClCompile Include="Window\DetailWindow\ComponentWidgetList.cpp">
+      <Filter>04. Window\06. Detail\01. ComponentType</Filter>
+    </ClCompile>
+    <ClCompile Include="Window\DetailWindow\SceneComponentWidgetList.cpp">
+      <Filter>04. Window\06. Detail\01. ComponentType\01. SceneComponentType</Filter>
+    </ClCompile>
+    <ClCompile Include="Window\DetailWindow\CameraComponentWidgetList.cpp">
+      <Filter>04. Window\06. Detail\01. ComponentType\01. SceneComponentType</Filter>
+    </ClCompile>
+    <ClCompile Include="Window\DetailWindow\Collider2DWidgetList.cpp">
+      <Filter>04. Window\06. Detail\01. ComponentType\01. SceneComponentType</Filter>
+    </ClCompile>
+    <ClCompile Include="Window\DetailWindow\Collider3DWidgetList.cpp">
+      <Filter>04. Window\06. Detail\01. ComponentType\01. SceneComponentType</Filter>
+    </ClCompile>
+    <ClCompile Include="Window\DetailWindow\ColliderBox2DWidgetList.cpp">
+      <Filter>04. Window\06. Detail\01. ComponentType\01. SceneComponentType</Filter>
+    </ClCompile>
+    <ClCompile Include="Window\DetailWindow\ColliderOBB2DWidgetList.cpp">
+      <Filter>04. Window\06. Detail\01. ComponentType\01. SceneComponentType</Filter>
+    </ClCompile>
+    <ClCompile Include="Window\DetailWindow\ColliderPixelWidgetList.cpp">
+      <Filter>04. Window\06. Detail\01. ComponentType\01. SceneComponentType</Filter>
+    </ClCompile>
+    <ClCompile Include="Window\DetailWindow\ColliderSphere2DWidgetList.cpp">
+      <Filter>04. Window\06. Detail\01. ComponentType\01. SceneComponentType</Filter>
+    </ClCompile>
+    <ClCompile Include="Window\DetailWindow\ColliderWidgetList.cpp">
+      <Filter>04. Window\06. Detail\01. ComponentType\01. SceneComponentType</Filter>
+    </ClCompile>
+    <ClCompile Include="Window\DetailWindow\PrimitiveComponentWidgetList.cpp">
+      <Filter>04. Window\06. Detail\01. ComponentType\01. SceneComponentType</Filter>
+    </ClCompile>
+    <ClCompile Include="Window\DetailWindow\SpriteComponentWidgetList.cpp">
+      <Filter>04. Window\06. Detail\01. ComponentType\01. SceneComponentType</Filter>
+    </ClCompile>
+    <ClCompile Include="Window\DetailWindow\TargetArmWidgetList.cpp">
+      <Filter>04. Window\06. Detail\01. ComponentType\01. SceneComponentType</Filter>
+    </ClCompile>
+    <ClCompile Include="Window\DetailWindow\ColliderLine2DWidgetList.cpp">
+      <Filter>04. Window\06. Detail\01. ComponentType\01. SceneComponentType</Filter>
+    </ClCompile>
+    <ClCompile Include="Window\Animation2DWindow.cpp">
+      <Filter>04. Window\07. Animation</Filter>
+    </ClCompile>
+    <ClCompile Include="Animation2D\TestAnimation2D.cpp">
+      <Filter>07. Animation2D</Filter>
+    </ClCompile>
+    <ClCompile Include="UI\TestUIWindow.cpp">
+      <Filter>06. UI</Filter>
+    </ClCompile>
+    <ClCompile Include="Scene\MainScene.cpp">
+      <Filter>03. Scene\01. MainScene</Filter>
+    </ClCompile>
+    <ClCompile Include="UI\MainUI.cpp">
+      <Filter>06. UI\01. MainUI</Filter>
+    </ClCompile>
+    <ClCompile Include="Scene\LoadingScene.cpp">
+      <Filter>03. Scene\99. LoadingScene</Filter>
+    </ClCompile>
+    <ClCompile Include="UI\LoadingUI.cpp">
+      <Filter>06. UI\02. LoadingUI</Filter>
+    </ClCompile>
+    <ClCompile Include="GameObject\Bird.cpp">
+      <Filter>05. GameObject\01. MainScene</Filter>
+    </ClCompile>
+    <ClCompile Include="Animation2D\BirdAnimation.cpp">
+      <Filter>07. Animation2D</Filter>
+    </ClCompile>
+    <ClCompile Include="GameObject\FrontCloud.cpp">
+      <Filter>05. GameObject\01. MainScene</Filter>
+    </ClCompile>
+    <ClCompile Include="GameObject\BackCloud.cpp">
+      <Filter>05. GameObject\01. MainScene</Filter>
+    </ClCompile>
+    <ClCompile Include="UI\PlaySlotUI.cpp">
+      <Filter>06. UI\01. MainUI</Filter>
+    </ClCompile>
+    <ClCompile Include="Window\UIWidgetEditor.cpp">
+      <Filter>04. Window\08. UI</Filter>
+    </ClCompile>
+    <ClCompile Include="Window\UIWindowEditor.cpp">
+      <Filter>04. Window\08. UI</Filter>
+    </ClCompile>
+    <ClCompile Include="Window\DetailWindow\TileMapComponentWidgetList.cpp">
+      <Filter>04. Window\06. Detail\01. ComponentType\01. SceneComponentType</Filter>
+    </ClCompile>
+    <ClCompile Include="Window\UI\UIWidgetList.cpp">
+      <Filter>04. Window\08. UI\UIWidget</Filter>
+    </ClCompile>
+    <ClCompile Include="Window\UI\UIButtonWidgetList.cpp">
+      <Filter>04. Window\08. UI\UIWidget</Filter>
+    </ClCompile>
+    <ClCompile Include="Window\UI\DefaultUIWidgetList.cpp">
+      <Filter>04. Window\08. UI\UIWidget</Filter>
+    </ClCompile>
+    <ClCompile Include="Window\UI\UIImageWidgetList.cpp">
+      <Filter>04. Window\08. UI\UIWidget</Filter>
+    </ClCompile>
+    <ClCompile Include="Window\UI\UITextWidgetList.cpp">
+      <Filter>04. Window\08. UI\UIWidget</Filter>
+    </ClCompile>
+    <ClCompile Include="Window\UI\UIProgressBarWidgetList.cpp">
+      <Filter>04. Window\08. UI\UIWidget</Filter>
+    </ClCompile>
+    <ClCompile Include="Window\UI\UINumberWidgetList.cpp">
+      <Filter>04. Window\08. UI\UIWidget</Filter>
+    </ClCompile>
+    <ClCompile Include="Window\TileMapWindow.cpp">
+      <Filter>04. Window\09. TIleMap</Filter>
+    </ClCompile>
+    <ClCompile Include="Scene\TownScene.cpp">
+      <Filter>03. Scene\02. TownScene</Filter>
+    </ClCompile>
+    <ClCompile Include="GameObject\TownBack.cpp">
+      <Filter>05. GameObject\04. Map</Filter>
+    </ClCompile>
+    <ClCompile Include="UI\SettingUI.cpp">
+      <Filter>06. UI\01. MainUI</Filter>
+    </ClCompile>
+    <ClCompile Include="Animation2D\PlayerAnimation.cpp">
+      <Filter>07. Animation2D</Filter>
+    </ClCompile>
+    <ClCompile Include="UI\CharacterLTUI.cpp">
+      <Filter>06. UI\03. Character</Filter>
+    </ClCompile>
+    <ClCompile Include="UI\CharacterLBUI.cpp">
+      <Filter>06. UI\03. Character</Filter>
+    </ClCompile>
+    <ClCompile Include="GameObject\Monster.cpp">
+      <Filter>05. GameObject\03. Monster</Filter>
+    </ClCompile>
+    <ClCompile Include="GameObject\SkelSword.cpp">
+      <Filter>05. GameObject\03. Monster\02. SkelSword</Filter>
+    </ClCompile>
+    <ClCompile Include="Animation2D\SkelAnimation.cpp">
+      <Filter>07. Animation2D\02. Monster\02. Skel</Filter>
+    </ClCompile>
+    <ClCompile Include="Animation2D\SkelBowAnimation.cpp">
+      <Filter>07. Animation2D\02. Monster\02. Skel</Filter>
+    </ClCompile>
+    <ClCompile Include="Animation2D\SkelSwordAnimation.cpp">
+      <Filter>07. Animation2D\02. Monster\02. Skel</Filter>
+    </ClCompile>
+    <ClCompile Include="Animation2D\AliceAnimation.cpp">
+      <Filter>07. Animation2D\01. Character\01. Costume</Filter>
+    </ClCompile>
+    <ClCompile Include="Animation2D\CharacterAnimation.cpp">
+      <Filter>07. Animation2D\01. Character\01. Costume</Filter>
+    </ClCompile>
+    <ClCompile Include="Animation2D\MetalPlateAnimation.cpp">
+      <Filter>07. Animation2D\01. Character\01. Costume</Filter>
+    </ClCompile>
+    <ClCompile Include="Animation2D\PickaxAnimation.cpp">
+      <Filter>07. Animation2D\01. Character\01. Costume</Filter>
+    </ClCompile>
+    <ClCompile Include="Animation2D\RedLotusAnimation.cpp">
+      <Filter>07. Animation2D\01. Character\01. Costume</Filter>
+    </ClCompile>
+    <ClCompile Include="Animation2D\ShortSwordSwing.cpp">
+      <Filter>07. Animation2D\03. Weapon</Filter>
+    </ClCompile>
+    <ClCompile Include="GameObject\Character.cpp">
+      <Filter>05. GameObject\02. Character\01. Character</Filter>
+    </ClCompile>
+    <ClCompile Include="GameObject\ShortSwordEffect.cpp">
+      <Filter>05. GameObject\05. WeaponEffect</Filter>
+    </ClCompile>
+    <ClCompile Include="GameObject\MonsterDestroyEffect.cpp">
+      <Filter>05. GameObject\03. Monster\01. Effect</Filter>
+    </ClCompile>
+    <ClCompile Include="Animation2D\MonsterDestroyAnimation.cpp">
+      <Filter>07. Animation2D\02. Monster\01. Effect</Filter>
+    </ClCompile>
+    <ClCompile Include="GameObject\SkelBow.cpp">
+      <Filter>05. GameObject\03. Monster\03. SkelBow</Filter>
+    </ClCompile>
+    <ClCompile Include="GameObject\SkelBowAttack.cpp">
+      <Filter>05. GameObject\03. Monster\03. SkelBow</Filter>
+    </ClCompile>
+    <ClCompile Include="GameObject\ArrowHitEffect.cpp">
+      <Filter>05. GameObject\05. WeaponEffect</Filter>
+    </ClCompile>
+    <ClCompile Include="Animation2D\ArrowHitAnimation.cpp">
+      <Filter>07. Animation2D\03. Weapon</Filter>
+    </ClCompile>
+    <ClCompile Include="GameObject\SkelSwordAttack.cpp">
+      <Filter>05. GameObject\03. Monster\02. SkelSword</Filter>
+    </ClCompile>
+    <ClCompile Include="GameObject\Belial.cpp">
+      <Filter>05. GameObject\06. Boss</Filter>
+    </ClCompile>
+    <ClCompile Include="Animation2D\BelialHeadAnimation.cpp">
+      <Filter>07. Animation2D\04. Boss</Filter>
+    </ClCompile>
+    <ClCompile Include="Animation2D\BelialHandAnimation.cpp">
+      <Filter>07. Animation2D\04. Boss</Filter>
+    </ClCompile>
+    <ClCompile Include="Animation2D\BelialBulletAnimation.cpp">
+      <Filter>07. Animation2D\04. Boss</Filter>
+    </ClCompile>
+    <ClCompile Include="Animation2D\BelialBackAnimation.cpp">
+      <Filter>07. Animation2D\04. Boss</Filter>
+    </ClCompile>
+    <ClCompile Include="GameObject\BelialLaser.cpp">
+      <Filter>05. GameObject\06. Boss</Filter>
+    </ClCompile>
+    <ClCompile Include="Animation2D\BelialLaserAnimation.cpp">
+      <Filter>07. Animation2D\04. Boss</Filter>
+    </ClCompile>
+    <ClCompile Include="GameObject\BelialBullet.cpp">
+      <Filter>05. GameObject\06. Boss</Filter>
+    </ClCompile>
+    <ClCompile Include="GameObject\BelialSword.cpp">
+      <Filter>05. GameObject\06. Boss</Filter>
+    </ClCompile>
+    <ClCompile Include="Animation2D\BelialSwordAnimation.cpp">
+      <Filter>07. Animation2D\04. Boss</Filter>
+    </ClCompile>
+    <ClCompile Include="GameObject\Creature.cpp">
+      <Filter>05. GameObject\03. Monster</Filter>
+    </ClCompile>
+    <ClCompile Include="UI\BossUI.cpp">
+      <Filter>06. UI\04. Boss</Filter>
+    </ClCompile>
+    <ClCompile Include="Scene\BossScene.cpp">
+      <Filter>03. Scene\04. BossScene</Filter>
+    </ClCompile>
+    <ClCompile Include="UI\CharacterHitUI.cpp">
+      <Filter>06. UI\03. Character</Filter>
+    </ClCompile>
+    <ClCompile Include="TransferInfo\TransferCharacterInfo.cpp">
+      <Filter>08. TransferInfo</Filter>
+    </ClCompile>
+    <ClCompile Include="Scene\BossEntranceScene.cpp">
+      <Filter>03. Scene\03. BossEntranceScene</Filter>
+    </ClCompile>
+    <ClCompile Include="Animation2D\DoorAnimation.cpp">
+      <Filter>07. Animation2D\05. Object</Filter>
+    </ClCompile>
+    <ClCompile Include="Scene\NormalScene.cpp">
+      <Filter>03. Scene\05. NormalScene</Filter>
+    </ClCompile>
+    <ClCompile Include="Scene\NormalScene1.cpp">
+      <Filter>03. Scene\05. NormalScene</Filter>
+    </ClCompile>
+    <ClCompile Include="Scene\NormalScene2.cpp">
+      <Filter>03. Scene\05. NormalScene</Filter>
+    </ClCompile>
+    <ClCompile Include="GameObject\BossEntranceMap.cpp">
+      <Filter>05. GameObject\04. Map\01. Boss</Filter>
+    </ClCompile>
+    <ClCompile Include="GameObject\BossMap.cpp">
+      <Filter>05. GameObject\04. Map\01. Boss</Filter>
+    </ClCompile>
+    <ClCompile Include="GameObject\NormalMap1.cpp">
+      <Filter>05. GameObject\04. Map\02. Normal</Filter>
+    </ClCompile>
+    <ClCompile Include="GameObject\NormalMap2.cpp">
+      <Filter>05. GameObject\04. Map\02. Normal</Filter>
+    </ClCompile>
+    <ClCompile Include="GameObject\NormalMap3.cpp">
+      <Filter>05. GameObject\04. Map\02. Normal</Filter>
+    </ClCompile>
+    <ClCompile Include="Scene\NormalScene3.cpp">
+      <Filter>03. Scene\05. NormalScene</Filter>
+    </ClCompile>
+    <ClCompile Include="GameObject\Banshee.cpp">
+      <Filter>05. GameObject\03. Monster\04. Banshee</Filter>
+    </ClCompile>
+    <ClCompile Include="Animation2D\BansheeAnimation.cpp">
+      <Filter>07. Animation2D\02. Monster\03. Banshee</Filter>
+    </ClCompile>
+    <ClCompile Include="Animation2D\BansheeBulletAnimation.cpp">
+      <Filter>07. Animation2D\02. Monster\03. Banshee</Filter>
+    </ClCompile>
+    <ClCompile Include="GameObject\BansheeBullet.cpp">
+      <Filter>05. GameObject\03. Monster\04. Banshee</Filter>
+    </ClCompile>
+    <ClCompile Include="Animation2D\BatBulletAnimation.cpp">
+      <Filter>07. Animation2D\02. Monster\04. Bat</Filter>
+    </ClCompile>
+    <ClCompile Include="GameObject\BatBullet.cpp">
+      <Filter>05. GameObject\03. Monster\05. Bat</Filter>
+    </ClCompile>
+    <ClCompile Include="Animation2D\NormalBatAnimation.cpp">
+      <Filter>07. Animation2D\02. Monster\04. Bat\01. Normal</Filter>
+    </ClCompile>
+    <ClCompile Include="Animation2D\RedBatAnimation.cpp">
+      <Filter>07. Animation2D\02. Monster\04. Bat\02. Red</Filter>
+    </ClCompile>
+    <ClCompile Include="Animation2D\GiantNormalBatAnimation.cpp">
+      <Filter>07. Animation2D\02. Monster\04. Bat\03. GiantNormal</Filter>
+    </ClCompile>
+    <ClCompile Include="Animation2D\GiantRedBatAnimation.cpp">
+      <Filter>07. Animation2D\02. Monster\04. Bat\04. GiantRed</Filter>
+    </ClCompile>
+    <ClCompile Include="GameObject\NormalBat.cpp">
+      <Filter>05. GameObject\03. Monster\05. Bat\01. Normal</Filter>
+    </ClCompile>
+    <ClCompile Include="GameObject\RedBat.cpp">
+      <Filter>05. GameObject\03. Monster\05. Bat\02. Red</Filter>
+    </ClCompile>
+    <ClCompile Include="GameObject\GiantNormalBat.cpp">
+      <Filter>05. GameObject\03. Monster\05. Bat\03. GiantNormal</Filter>
+    </ClCompile>
+    <ClCompile Include="GameObject\GiantRedBat.cpp">
+      <Filter>05. GameObject\03. Monster\05. Bat\04. GiantRed</Filter>
+    </ClCompile>
+    <ClCompile Include="Animation2D\GhostAnimation.cpp">
+      <Filter>07. Animation2D\02. Monster\05. Ghost</Filter>
+    </ClCompile>
+    <ClCompile Include="GameObject\Ghost.cpp">
+      <Filter>05. GameObject\03. Monster\06. Ghost</Filter>
+    </ClCompile>
+    <ClCompile Include="GameObject\DustEffect.cpp">
+      <Filter>05. GameObject\02. Character\02. Effect</Filter>
+    </ClCompile>
+    <ClCompile Include="Animation2D\DustEffectAnimation.cpp">
+      <Filter>07. Animation2D\01. Character\02. Effect</Filter>
+    </ClCompile>
+    <ClCompile Include="Animation2D\JumpEffectAnimation.cpp">
+      <Filter>07. Animation2D\01. Character\02. Effect</Filter>
+    </ClCompile>
+    <ClCompile Include="GameObject\JumpEffect.cpp">
+      <Filter>05. GameObject\02. Character\02. Effect</Filter>
+    </ClCompile>
+    <ClCompile Include="GameObject\NormalMap4.cpp">
+      <Filter>05. GameObject\04. Map\02. Normal</Filter>
+    </ClCompile>
+    <ClCompile Include="Scene\NormalScene4.cpp">
+      <Filter>03. Scene\05. NormalScene</Filter>
+    </ClCompile>
+    <ClCompile Include="GameObject\NormalMap5.cpp">
+      <Filter>05. GameObject\04. Map\02. Normal</Filter>
+    </ClCompile>
+    <ClCompile Include="Scene\NormalScene5.cpp">
+      <Filter>03. Scene\05. NormalScene</Filter>
+    </ClCompile>
+    <ClCompile Include="GameObject\NormalMap6.cpp">
+      <Filter>05. GameObject\04. Map\02. Normal</Filter>
+    </ClCompile>
+    <ClCompile Include="Scene\NormalScene6.cpp">
+      <Filter>03. Scene\05. NormalScene</Filter>
+    </ClCompile>
+    <ClCompile Include="GameObject\BossDoor.cpp">
+      <Filter>05. GameObject\07. Object</Filter>
+    </ClCompile>
+    <ClCompile Include="GameObject\EndingPortal.cpp">
+      <Filter>05. GameObject\07. Object</Filter>
+    </ClCompile>
+    <ClCompile Include="Animation2D\PortalAnimation.cpp">
+      <Filter>07. Animation2D\05. Object</Filter>
+    </ClCompile>
+    <ClCompile Include="Scene\EndingScene.cpp">
+      <Filter>03. Scene\06. EndingScene</Filter>
+    </ClCompile>
+    <ClCompile Include="GameObject\Horse.cpp">
+      <Filter>05. GameObject\08. EndingScene</Filter>
+    </ClCompile>
+    <ClCompile Include="Animation2D\HorseAnimation.cpp">
+      <Filter>07. Animation2D\06. EndingScene</Filter>
+    </ClCompile>
+    <ClCompile Include="GameObject\EndingBack.cpp">
+      <Filter>05. GameObject\08. EndingScene</Filter>
+    </ClCompile>
+    <ClCompile Include="GameObject\EndingTree.cpp">
+      <Filter>05. GameObject\08. EndingScene</Filter>
+    </ClCompile>
+    <ClCompile Include="GameObject\EndingTile.cpp">
+      <Filter>05. GameObject\08. EndingScene</Filter>
+    </ClCompile>
+    <ClCompile Include="UI\EndingUI.cpp">
+      <Filter>06. UI\05. EndingUI</Filter>
+    </ClCompile>
+    <ClCompile Include="GameObject\Gold.cpp">
+      <Filter>05. GameObject\07. Object</Filter>
+    </ClCompile>
+    <ClCompile Include="Animation2D\GoldAnimation.cpp">
+      <Filter>07. Animation2D\05. Object</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="resource.h">
+      <Filter>헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="EditorManager.h">
+      <Filter>01. EditorManager</Filter>
+    </ClInclude>
+    <ClInclude Include="Scene\EditorDefaultScene.h">
+      <Filter>03. Scene</Filter>
+    </ClInclude>
+    <ClInclude Include="Editor.h">
+      <Filter>헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="Window\ObjectWindow.h">
+      <Filter>04. Window\01. Object</Filter>
+    </ClInclude>
+    <ClInclude Include="GameObject\Bullet.h">
+      <Filter>05. GameObject</Filter>
+    </ClInclude>
+    <ClInclude Include="GameObject\Player2D.h">
+      <Filter>05. GameObject</Filter>
+    </ClInclude>
+    <ClInclude Include="Window\ClassWindow.h">
+      <Filter>04. Window\02. Class</Filter>
+    </ClInclude>
+    <ClInclude Include="Window\ComponentWindow.h">
+      <Filter>04. Window\03. Component</Filter>
+    </ClInclude>
+    <ClInclude Include="Window\TransformWindow.h">
+      <Filter>04. Window\04. Transform</Filter>
+    </ClInclude>
+    <ClInclude Include="Window\SceneWindow.h">
+      <Filter>04. Window\05. Scene</Filter>
+    </ClInclude>
+    <ClInclude Include="Window\DetailWindow.h">
+      <Filter>04. Window\06. Detail</Filter>
+    </ClInclude>
+    <ClInclude Include="UI\StartSceneUI.h">
+      <Filter>06. UI</Filter>
+    </ClInclude>
+    <ClInclude Include="Window\TestWindow.h">
+      <Filter>04. Window\Test</Filter>
+    </ClInclude>
+    <ClInclude Include="Setting\DefaultSetting.h">
+      <Filter>02. Setting</Filter>
+    </ClInclude>
+    <ClInclude Include="Setting\EngineShareSetting.h">
+      <Filter>02. Setting</Filter>
+    </ClInclude>
+    <ClInclude Include="Scene\TestSceneInfo.h">
+      <Filter>03. Scene</Filter>
+    </ClInclude>
+    <ClInclude Include="Window\EditorUIWindow.h">
+      <Filter>04. Window\08. UI</Filter>
+    </ClInclude>
+    <ClInclude Include="Window\DetailWindow\ComponentWidgetList.h">
+      <Filter>04. Window\06. Detail\01. ComponentType</Filter>
+    </ClInclude>
+    <ClInclude Include="Window\DetailWindow\SceneComponentWidgetList.h">
+      <Filter>04. Window\06. Detail\01. ComponentType\01. SceneComponentType</Filter>
+    </ClInclude>
+    <ClInclude Include="Window\DetailWindow\CameraComponentWidgetList.h">
+      <Filter>04. Window\06. Detail\01. ComponentType\01. SceneComponentType</Filter>
+    </ClInclude>
+    <ClInclude Include="Window\DetailWindow\Collider2DWidgetList.h">
+      <Filter>04. Window\06. Detail\01. ComponentType\01. SceneComponentType</Filter>
+    </ClInclude>
+    <ClInclude Include="Window\DetailWindow\Collider3DWidgetList.h">
+      <Filter>04. Window\06. Detail\01. ComponentType\01. SceneComponentType</Filter>
+    </ClInclude>
+    <ClInclude Include="Window\DetailWindow\ColliderBox2DWidgetList.h">
+      <Filter>04. Window\06. Detail\01. ComponentType\01. SceneComponentType</Filter>
+    </ClInclude>
+    <ClInclude Include="Window\DetailWindow\ColliderOBB2DWidgetList.h">
+      <Filter>04. Window\06. Detail\01. ComponentType\01. SceneComponentType</Filter>
+    </ClInclude>
+    <ClInclude Include="Window\DetailWindow\ColliderPixelWidgetList.h">
+      <Filter>04. Window\06. Detail\01. ComponentType\01. SceneComponentType</Filter>
+    </ClInclude>
+    <ClInclude Include="Window\DetailWindow\ColliderSphere2DWidgetList.h">
+      <Filter>04. Window\06. Detail\01. ComponentType\01. SceneComponentType</Filter>
+    </ClInclude>
+    <ClInclude Include="Window\DetailWindow\ColliderWidgetList.h">
+      <Filter>04. Window\06. Detail\01. ComponentType\01. SceneComponentType</Filter>
+    </ClInclude>
+    <ClInclude Include="Window\DetailWindow\PrimitiveComponentWidgetList.h">
+      <Filter>04. Window\06. Detail\01. ComponentType\01. SceneComponentType</Filter>
+    </ClInclude>
+    <ClInclude Include="Window\DetailWindow\SpriteComponentWidgetList.h">
+      <Filter>04. Window\06. Detail\01. ComponentType\01. SceneComponentType</Filter>
+    </ClInclude>
+    <ClInclude Include="Window\DetailWindow\TargetArmWidgetList.h">
+      <Filter>04. Window\06. Detail\01. ComponentType\01. SceneComponentType</Filter>
+    </ClInclude>
+    <ClInclude Include="Window\DetailWindow\ColliderLine2DWidgetList.h">
+      <Filter>04. Window\06. Detail\01. ComponentType\01. SceneComponentType</Filter>
+    </ClInclude>
+    <ClInclude Include="Window\Animation2DWindow.h">
+      <Filter>04. Window\07. Animation</Filter>
+    </ClInclude>
+    <ClInclude Include="Animation2D\TestAnimation2D.h">
+      <Filter>07. Animation2D</Filter>
+    </ClInclude>
+    <ClInclude Include="UI\TestUIWindow.h">
+      <Filter>06. UI</Filter>
+    </ClInclude>
+    <ClInclude Include="Scene\MainScene.h">
+      <Filter>03. Scene\01. MainScene</Filter>
+    </ClInclude>
+    <ClInclude Include="UI\MainUI.h">
+      <Filter>06. UI\01. MainUI</Filter>
+    </ClInclude>
+    <ClInclude Include="Scene\LoadingScene.h">
+      <Filter>03. Scene\99. LoadingScene</Filter>
+    </ClInclude>
+    <ClInclude Include="UI\LoadingUI.h">
+      <Filter>06. UI\02. LoadingUI</Filter>
+    </ClInclude>
+    <ClInclude Include="GameObject\Bird.h">
+      <Filter>05. GameObject\01. MainScene</Filter>
+    </ClInclude>
+    <ClInclude Include="Animation2D\BirdAnimation.h">
+      <Filter>07. Animation2D</Filter>
+    </ClInclude>
+    <ClInclude Include="GameObject\FrontCloud.h">
+      <Filter>05. GameObject\01. MainScene</Filter>
+    </ClInclude>
+    <ClInclude Include="GameObject\BackCloud.h">
+      <Filter>05. GameObject\01. MainScene</Filter>
+    </ClInclude>
+    <ClInclude Include="UI\PlaySlotUI.h">
+      <Filter>06. UI\01. MainUI</Filter>
+    </ClInclude>
+    <ClInclude Include="Window\UIWidgetEditor.h">
+      <Filter>04. Window\08. UI</Filter>
+    </ClInclude>
+    <ClInclude Include="Window\UIWindowEditor.h">
+      <Filter>04. Window\08. UI</Filter>
+    </ClInclude>
+    <ClInclude Include="Window\DetailWindow\TileMapComponentWidgetList.h">
+      <Filter>04. Window\06. Detail\01. ComponentType\01. SceneComponentType</Filter>
+    </ClInclude>
+    <ClInclude Include="Window\UI\UIWidgetList.h">
+      <Filter>04. Window\08. UI\UIWidget</Filter>
+    </ClInclude>
+    <ClInclude Include="Window\UI\UIButtonWidgetList.h">
+      <Filter>04. Window\08. UI\UIWidget</Filter>
+    </ClInclude>
+    <ClInclude Include="Window\UI\DefaultUIWidgetList.h">
+      <Filter>04. Window\08. UI\UIWidget</Filter>
+    </ClInclude>
+    <ClInclude Include="Window\UI\UIImageWidgetList.h">
+      <Filter>04. Window\08. UI\UIWidget</Filter>
+    </ClInclude>
+    <ClInclude Include="Window\UI\UINumberWidgetList.h">
+      <Filter>04. Window\08. UI\UIWidget</Filter>
+    </ClInclude>
+    <ClInclude Include="Window\UI\UIProgressBarWidgetList.h">
+      <Filter>04. Window\08. UI\UIWidget</Filter>
+    </ClInclude>
+    <ClInclude Include="Window\UI\UITextWidgetList.h">
+      <Filter>04. Window\08. UI\UIWidget</Filter>
+    </ClInclude>
+    <ClInclude Include="Window\TileMapWindow.h">
+      <Filter>04. Window\09. TIleMap</Filter>
+    </ClInclude>
+    <ClInclude Include="Scene\TownScene.h">
+      <Filter>03. Scene\02. TownScene</Filter>
+    </ClInclude>
+    <ClInclude Include="GameObject\TownBack.h">
+      <Filter>05. GameObject\04. Map</Filter>
+    </ClInclude>
+    <ClInclude Include="UI\SettingUI.h">
+      <Filter>06. UI\01. MainUI</Filter>
+    </ClInclude>
+    <ClInclude Include="Animation2D\PlayerAnimation.h">
+      <Filter>07. Animation2D</Filter>
+    </ClInclude>
+    <ClInclude Include="UI\CharacterLTUI.h">
+      <Filter>06. UI\03. Character</Filter>
+    </ClInclude>
+    <ClInclude Include="UI\CharacterLBUI.h">
+      <Filter>06. UI\03. Character</Filter>
+    </ClInclude>
+    <ClInclude Include="GameObject\Monster.h">
+      <Filter>05. GameObject\03. Monster</Filter>
+    </ClInclude>
+    <ClInclude Include="GameObject\SkelSword.h">
+      <Filter>05. GameObject\03. Monster\02. SkelSword</Filter>
+    </ClInclude>
+    <ClInclude Include="Animation2D\SkelAnimation.h">
+      <Filter>07. Animation2D\02. Monster\02. Skel</Filter>
+    </ClInclude>
+    <ClInclude Include="Animation2D\SkelBowAnimation.h">
+      <Filter>07. Animation2D\02. Monster\02. Skel</Filter>
+    </ClInclude>
+    <ClInclude Include="Animation2D\SkelSwordAnimation.h">
+      <Filter>07. Animation2D\02. Monster\02. Skel</Filter>
+    </ClInclude>
+    <ClInclude Include="Animation2D\AliceAnimation.h">
+      <Filter>07. Animation2D\01. Character\01. Costume</Filter>
+    </ClInclude>
+    <ClInclude Include="Animation2D\CharacterAnimation.h">
+      <Filter>07. Animation2D\01. Character\01. Costume</Filter>
+    </ClInclude>
+    <ClInclude Include="Animation2D\MetalPlateAnimation.h">
+      <Filter>07. Animation2D\01. Character\01. Costume</Filter>
+    </ClInclude>
+    <ClInclude Include="Animation2D\PickaxAnimation.h">
+      <Filter>07. Animation2D\01. Character\01. Costume</Filter>
+    </ClInclude>
+    <ClInclude Include="Animation2D\RedLotusAnimation.h">
+      <Filter>07. Animation2D\01. Character\01. Costume</Filter>
+    </ClInclude>
+    <ClInclude Include="Animation2D\ShortSwordSwing.h">
+      <Filter>07. Animation2D\03. Weapon</Filter>
+    </ClInclude>
+    <ClInclude Include="GameObject\Character.h">
+      <Filter>05. GameObject\02. Character\01. Character</Filter>
+    </ClInclude>
+    <ClInclude Include="GameObject\ShortSwordEffect.h">
+      <Filter>05. GameObject\05. WeaponEffect</Filter>
+    </ClInclude>
+    <ClInclude Include="GameObject\MonsterDestroyEffect.h">
+      <Filter>05. GameObject\03. Monster\01. Effect</Filter>
+    </ClInclude>
+    <ClInclude Include="Animation2D\MonsterDestroyAnimation.h">
+      <Filter>07. Animation2D\02. Monster\01. Effect</Filter>
+    </ClInclude>
+    <ClInclude Include="GameObject\SkelBow.h">
+      <Filter>05. GameObject\03. Monster\03. SkelBow</Filter>
+    </ClInclude>
+    <ClInclude Include="GameObject\SkelBowAttack.h">
+      <Filter>05. GameObject\03. Monster\03. SkelBow</Filter>
+    </ClInclude>
+    <ClInclude Include="GameObject\ArrowHitEffect.h">
+      <Filter>05. GameObject\05. WeaponEffect</Filter>
+    </ClInclude>
+    <ClInclude Include="Animation2D\ArrowHitAnimation.h">
+      <Filter>07. Animation2D\03. Weapon</Filter>
+    </ClInclude>
+    <ClInclude Include="GameObject\SkelSwordAttack.h">
+      <Filter>05. GameObject\03. Monster\02. SkelSword</Filter>
+    </ClInclude>
+    <ClInclude Include="GameObject\Belial.h">
+      <Filter>05. GameObject\06. Boss</Filter>
+    </ClInclude>
+    <ClInclude Include="Animation2D\BelialHandAnimation.h">
+      <Filter>07. Animation2D\04. Boss</Filter>
+    </ClInclude>
+    <ClInclude Include="Animation2D\BelialHeadAnimation.h">
+      <Filter>07. Animation2D\04. Boss</Filter>
+    </ClInclude>
+    <ClInclude Include="Animation2D\BelialBulletAnimation.h">
+      <Filter>07. Animation2D\04. Boss</Filter>
+    </ClInclude>
+    <ClInclude Include="Animation2D\BelialBackAnimation.h">
+      <Filter>07. Animation2D\04. Boss</Filter>
+    </ClInclude>
+    <ClInclude Include="GameObject\BelialLaser.h">
+      <Filter>05. GameObject\06. Boss</Filter>
+    </ClInclude>
+    <ClInclude Include="Animation2D\BelialLaserAnimation.h">
+      <Filter>07. Animation2D\04. Boss</Filter>
+    </ClInclude>
+    <ClInclude Include="GameObject\BelialBullet.h">
+      <Filter>05. GameObject\06. Boss</Filter>
+    </ClInclude>
+    <ClInclude Include="GameObject\BelialSword.h">
+      <Filter>05. GameObject\06. Boss</Filter>
+    </ClInclude>
+    <ClInclude Include="Animation2D\BelialSwordAnimation.h">
+      <Filter>07. Animation2D\04. Boss</Filter>
+    </ClInclude>
+    <ClInclude Include="GameObject\Creature.h">
+      <Filter>05. GameObject\03. Monster</Filter>
+    </ClInclude>
+    <ClInclude Include="UI\BossUI.h">
+      <Filter>06. UI\04. Boss</Filter>
+    </ClInclude>
+    <ClInclude Include="Scene\BossScene.h">
+      <Filter>03. Scene\04. BossScene</Filter>
+    </ClInclude>
+    <ClInclude Include="UI\CharacterHitUI.h">
+      <Filter>06. UI\03. Character</Filter>
+    </ClInclude>
+    <ClInclude Include="TransferInfo\TransferCharacterInfo.h">
+      <Filter>08. TransferInfo</Filter>
+    </ClInclude>
+    <ClInclude Include="Scene\BossEntranceScene.h">
+      <Filter>03. Scene\03. BossEntranceScene</Filter>
+    </ClInclude>
+    <ClInclude Include="Animation2D\DoorAnimation.h">
+      <Filter>07. Animation2D\05. Object</Filter>
+    </ClInclude>
+    <ClInclude Include="Scene\NormalScene.h">
+      <Filter>03. Scene\05. NormalScene</Filter>
+    </ClInclude>
+    <ClInclude Include="Scene\NormalScene1.h">
+      <Filter>03. Scene\05. NormalScene</Filter>
+    </ClInclude>
+    <ClInclude Include="Scene\NormalScene2.h">
+      <Filter>03. Scene\05. NormalScene</Filter>
+    </ClInclude>
+    <ClInclude Include="GameObject\BossEntranceMap.h">
+      <Filter>05. GameObject\04. Map\01. Boss</Filter>
+    </ClInclude>
+    <ClInclude Include="GameObject\BossMap.h">
+      <Filter>05. GameObject\04. Map\01. Boss</Filter>
+    </ClInclude>
+    <ClInclude Include="GameObject\NormalMap2.h">
+      <Filter>05. GameObject\04. Map\02. Normal</Filter>
+    </ClInclude>
+    <ClInclude Include="GameObject\NormalMap1.h">
+      <Filter>05. GameObject\04. Map\02. Normal</Filter>
+    </ClInclude>
+    <ClInclude Include="GameObject\NormalMap3.h">
+      <Filter>05. GameObject\04. Map\02. Normal</Filter>
+    </ClInclude>
+    <ClInclude Include="Scene\NormalScene3.h">
+      <Filter>03. Scene\05. NormalScene</Filter>
+    </ClInclude>
+    <ClInclude Include="GameObject\Banshee.h">
+      <Filter>05. GameObject\03. Monster\04. Banshee</Filter>
+    </ClInclude>
+    <ClInclude Include="Animation2D\BansheeAnimation.h">
+      <Filter>07. Animation2D\02. Monster\03. Banshee</Filter>
+    </ClInclude>
+    <ClInclude Include="Animation2D\BansheeBulletAnimation.h">
+      <Filter>07. Animation2D\02. Monster\03. Banshee</Filter>
+    </ClInclude>
+    <ClInclude Include="GameObject\BansheeBullet.h">
+      <Filter>05. GameObject\03. Monster\04. Banshee</Filter>
+    </ClInclude>
+    <ClInclude Include="Animation2D\BatBulletAnimation.h">
+      <Filter>07. Animation2D\02. Monster\04. Bat</Filter>
+    </ClInclude>
+    <ClInclude Include="GameObject\BatBullet.h">
+      <Filter>05. GameObject\03. Monster\05. Bat</Filter>
+    </ClInclude>
+    <ClInclude Include="Animation2D\NormalBatAnimation.h">
+      <Filter>07. Animation2D\02. Monster\04. Bat\01. Normal</Filter>
+    </ClInclude>
+    <ClInclude Include="Animation2D\RedBatAnimation.h">
+      <Filter>07. Animation2D\02. Monster\04. Bat\02. Red</Filter>
+    </ClInclude>
+    <ClInclude Include="Animation2D\GiantNormalBatAnimation.h">
+      <Filter>07. Animation2D\02. Monster\04. Bat\03. GiantNormal</Filter>
+    </ClInclude>
+    <ClInclude Include="Animation2D\GiantRedBatAnimation.h">
+      <Filter>07. Animation2D\02. Monster\04. Bat\04. GiantRed</Filter>
+    </ClInclude>
+    <ClInclude Include="GameObject\NormalBat.h">
+      <Filter>05. GameObject\03. Monster\05. Bat\01. Normal</Filter>
+    </ClInclude>
+    <ClInclude Include="GameObject\RedBat.h">
+      <Filter>05. GameObject\03. Monster\05. Bat\02. Red</Filter>
+    </ClInclude>
+    <ClInclude Include="GameObject\GiantNormalBat.h">
+      <Filter>05. GameObject\03. Monster\05. Bat\03. GiantNormal</Filter>
+    </ClInclude>
+    <ClInclude Include="GameObject\GiantRedBat.h">
+      <Filter>05. GameObject\03. Monster\05. Bat\04. GiantRed</Filter>
+    </ClInclude>
+    <ClInclude Include="Animation2D\GhostAnimation.h">
+      <Filter>07. Animation2D\02. Monster\05. Ghost</Filter>
+    </ClInclude>
+    <ClInclude Include="GameObject\Ghost.h">
+      <Filter>05. GameObject\03. Monster\06. Ghost</Filter>
+    </ClInclude>
+    <ClInclude Include="GameObject\DustEffect.h">
+      <Filter>05. GameObject\02. Character\02. Effect</Filter>
+    </ClInclude>
+    <ClInclude Include="Animation2D\DustEffectAnimation.h">
+      <Filter>07. Animation2D\01. Character\02. Effect</Filter>
+    </ClInclude>
+    <ClInclude Include="Animation2D\JumpEffectAnimation.h">
+      <Filter>07. Animation2D\01. Character\02. Effect</Filter>
+    </ClInclude>
+    <ClInclude Include="GameObject\JumpEffect.h">
+      <Filter>05. GameObject\02. Character\02. Effect</Filter>
+    </ClInclude>
+    <ClInclude Include="GameObject\NormalMap4.h">
+      <Filter>05. GameObject\04. Map\02. Normal</Filter>
+    </ClInclude>
+    <ClInclude Include="Scene\NormalScene4.h">
+      <Filter>03. Scene\05. NormalScene</Filter>
+    </ClInclude>
+    <ClInclude Include="GameObject\NormalMap5.h">
+      <Filter>05. GameObject\04. Map\02. Normal</Filter>
+    </ClInclude>
+    <ClInclude Include="Scene\NormalScene5.h">
+      <Filter>03. Scene\05. NormalScene</Filter>
+    </ClInclude>
+    <ClInclude Include="GameObject\NormalMap6.h">
+      <Filter>05. GameObject\04. Map\02. Normal</Filter>
+    </ClInclude>
+    <ClInclude Include="Scene\NormalScene6.h">
+      <Filter>03. Scene\05. NormalScene</Filter>
+    </ClInclude>
+    <ClInclude Include="GameObject\BossDoor.h">
+      <Filter>05. GameObject\07. Object</Filter>
+    </ClInclude>
+    <ClInclude Include="GameObject\EndingPortal.h">
+      <Filter>05. GameObject\07. Object</Filter>
+    </ClInclude>
+    <ClInclude Include="Animation2D\PortalAnimation.h">
+      <Filter>07. Animation2D\05. Object</Filter>
+    </ClInclude>
+    <ClInclude Include="Scene\EndingScene.h">
+      <Filter>03. Scene\06. EndingScene</Filter>
+    </ClInclude>
+    <ClInclude Include="GameObject\Horse.h">
+      <Filter>05. GameObject\08. EndingScene</Filter>
+    </ClInclude>
+    <ClInclude Include="Animation2D\HorseAnimation.h">
+      <Filter>07. Animation2D\06. EndingScene</Filter>
+    </ClInclude>
+    <ClInclude Include="GameObject\EndingBack.h">
+      <Filter>05. GameObject\08. EndingScene</Filter>
+    </ClInclude>
+    <ClInclude Include="GameObject\EndingTree.h">
+      <Filter>05. GameObject\08. EndingScene</Filter>
+    </ClInclude>
+    <ClInclude Include="GameObject\EndingTile.h">
+      <Filter>05. GameObject\08. EndingScene</Filter>
+    </ClInclude>
+    <ClInclude Include="UI\EndingUI.h">
+      <Filter>06. UI\05. EndingUI</Filter>
+    </ClInclude>
+    <ClInclude Include="GameObject\Gold.h">
+      <Filter>05. GameObject\07. Object</Filter>
+    </ClInclude>
+    <ClInclude Include="Animation2D\GoldAnimation.h">
+      <Filter>07. Animation2D\05. Object</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="AR41Editor.rc">
+      <Filter>리소스 파일</Filter>
+    </ResourceCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <Image Include="icon1.ico">
+      <Filter>리소스 파일</Filter>
+    </Image>
+  </ItemGroup>
+</Project>

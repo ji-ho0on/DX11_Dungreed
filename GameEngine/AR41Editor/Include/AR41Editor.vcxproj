@@ -1,0 +1,489 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|Win32">
+      <Configuration>Debug</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|Win32">
+      <Configuration>Release</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Debug|x64">
+      <Configuration>Debug</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|x64">
+      <Configuration>Release</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <VCProjectVersion>16.0</VCProjectVersion>
+    <Keyword>Win32Proj</Keyword>
+    <ProjectGuid>{faf7b90f-7d09-4f79-94fb-56eb5f225997}</ProjectGuid>
+    <RootNamespace>AR41Editor</RootNamespace>
+    <WindowsTargetPlatformVersion>10.0</WindowsTargetPlatformVersion>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>true</UseDebugLibraries>
+    <PlatformToolset>v143</PlatformToolset>
+    <CharacterSet>Unicode</CharacterSet>
+    <EnableUnitySupport>true</EnableUnitySupport>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>false</UseDebugLibraries>
+    <PlatformToolset>v143</PlatformToolset>
+    <WholeProgramOptimization>true</WholeProgramOptimization>
+    <CharacterSet>Unicode</CharacterSet>
+    <EnableUnitySupport>true</EnableUnitySupport>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>true</UseDebugLibraries>
+    <PlatformToolset>v143</PlatformToolset>
+    <CharacterSet>Unicode</CharacterSet>
+    <EnableUnitySupport>true</EnableUnitySupport>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>false</UseDebugLibraries>
+    <PlatformToolset>v143</PlatformToolset>
+    <WholeProgramOptimization>true</WholeProgramOptimization>
+    <CharacterSet>Unicode</CharacterSet>
+    <EnableUnitySupport>true</EnableUnitySupport>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Label="Shared">
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <LinkIncremental>true</LinkIncremental>
+    <OutDir>../Bin/</OutDir>
+    <IntDir>../BinObjDebug/</IntDir>
+    <TargetName>$(ProjectName)_Debug</TargetName>
+    <IncludePath>../../Engine/Include/;$(IncludePath)</IncludePath>
+    <LibraryPath>../Bin/;$(LibraryPath)</LibraryPath>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <LinkIncremental>false</LinkIncremental>
+    <OutDir>../Bin/</OutDir>
+    <IntDir>../BinObj/</IntDir>
+    <IncludePath>../../Engine/Include/;$(IncludePath)</IncludePath>
+    <LibraryPath>../Bin/;$(LibraryPath)</LibraryPath>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <LinkIncremental>true</LinkIncremental>
+    <OutDir>../Bin/</OutDir>
+    <IntDir>../BinObjDebug/</IntDir>
+    <TargetName>$(ProjectName)_Debug</TargetName>
+    <IncludePath>../../Engine/Include/;$(IncludePath)</IncludePath>
+    <LibraryPath>../Bin/;$(LibraryPath)</LibraryPath>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <LinkIncremental>false</LinkIncremental>
+    <OutDir>../Bin/</OutDir>
+    <IntDir>../BinObj/</IntDir>
+    <IncludePath>../../Engine/Include/;$(IncludePath)</IncludePath>
+    <LibraryPath>../Bin/;$(LibraryPath)</LibraryPath>
+  </PropertyGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <SDLCheck>true</SDLCheck>
+      <PreprocessorDefinitions>WIN32;_DEBUG;_WINDOWS;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <ConformanceMode>true</ConformanceMode>
+      <LanguageStandard>stdcpp17</LanguageStandard>
+      <MultiProcessorCompilation>true</MultiProcessorCompilation>
+      <AdditionalOptions>/bigobj %(AdditionalOptions)</AdditionalOptions>
+    </ClCompile>
+    <Link>
+      <SubSystem>Windows</SubSystem>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+    </Link>
+    <PostBuildEvent>
+      <Command>call $(SolutionDir)EditorCopy.bat</Command>
+    </PostBuildEvent>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <FunctionLevelLinking>true</FunctionLevelLinking>
+      <IntrinsicFunctions>true</IntrinsicFunctions>
+      <SDLCheck>true</SDLCheck>
+      <PreprocessorDefinitions>WIN32;NDEBUG;_WINDOWS;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <ConformanceMode>true</ConformanceMode>
+      <LanguageStandard>stdcpp17</LanguageStandard>
+      <MultiProcessorCompilation>true</MultiProcessorCompilation>
+      <AdditionalOptions>/bigobj %(AdditionalOptions)</AdditionalOptions>
+    </ClCompile>
+    <Link>
+      <SubSystem>Windows</SubSystem>
+      <EnableCOMDATFolding>true</EnableCOMDATFolding>
+      <OptimizeReferences>true</OptimizeReferences>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+    </Link>
+    <PostBuildEvent>
+      <Command>call $(SolutionDir)EditorCopy.bat</Command>
+    </PostBuildEvent>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <SDLCheck>true</SDLCheck>
+      <PreprocessorDefinitions>_DEBUG;_WINDOWS;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <ConformanceMode>true</ConformanceMode>
+      <LanguageStandard>stdcpp17</LanguageStandard>
+      <MultiProcessorCompilation>true</MultiProcessorCompilation>
+      <AdditionalOptions>/bigobj %(AdditionalOptions)</AdditionalOptions>
+    </ClCompile>
+    <Link>
+      <SubSystem>Windows</SubSystem>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+    </Link>
+    <PostBuildEvent>
+      <Command>call $(SolutionDir)EditorCopy.bat</Command>
+    </PostBuildEvent>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <FunctionLevelLinking>true</FunctionLevelLinking>
+      <IntrinsicFunctions>true</IntrinsicFunctions>
+      <SDLCheck>true</SDLCheck>
+      <PreprocessorDefinitions>NDEBUG;_WINDOWS;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <ConformanceMode>true</ConformanceMode>
+      <LanguageStandard>stdcpp17</LanguageStandard>
+      <MultiProcessorCompilation>true</MultiProcessorCompilation>
+      <AdditionalOptions>/bigobj %(AdditionalOptions)</AdditionalOptions>
+    </ClCompile>
+    <Link>
+      <SubSystem>Windows</SubSystem>
+      <EnableCOMDATFolding>true</EnableCOMDATFolding>
+      <OptimizeReferences>true</OptimizeReferences>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+    </Link>
+    <PostBuildEvent>
+      <Command>call $(SolutionDir)EditorCopy.bat</Command>
+    </PostBuildEvent>
+  </ItemDefinitionGroup>
+  <ItemGroup>
+    <ClCompile Include="Animation2D\AliceAnimation.cpp" />
+    <ClCompile Include="Animation2D\ArrowHitAnimation.cpp" />
+    <ClCompile Include="Animation2D\BansheeAnimation.cpp" />
+    <ClCompile Include="Animation2D\BansheeBulletAnimation.cpp" />
+    <ClCompile Include="Animation2D\BatBulletAnimation.cpp" />
+    <ClCompile Include="Animation2D\BelialBackAnimation.cpp" />
+    <ClCompile Include="Animation2D\BelialBulletAnimation.cpp" />
+    <ClCompile Include="Animation2D\BelialHandAnimation.cpp" />
+    <ClCompile Include="Animation2D\BelialHeadAnimation.cpp" />
+    <ClCompile Include="Animation2D\BelialLaserAnimation.cpp" />
+    <ClCompile Include="Animation2D\BelialSwordAnimation.cpp" />
+    <ClCompile Include="Animation2D\BirdAnimation.cpp" />
+    <ClCompile Include="Animation2D\CharacterAnimation.cpp" />
+    <ClCompile Include="Animation2D\DoorAnimation.cpp" />
+    <ClCompile Include="Animation2D\DustEffectAnimation.cpp" />
+    <ClCompile Include="Animation2D\GhostAnimation.cpp" />
+    <ClCompile Include="Animation2D\GiantNormalBatAnimation.cpp" />
+    <ClCompile Include="Animation2D\GiantRedBatAnimation.cpp" />
+    <ClCompile Include="Animation2D\GoldAnimation.cpp" />
+    <ClCompile Include="Animation2D\HorseAnimation.cpp" />
+    <ClCompile Include="Animation2D\JumpEffectAnimation.cpp" />
+    <ClCompile Include="Animation2D\MetalPlateAnimation.cpp" />
+    <ClCompile Include="Animation2D\MonsterDestroyAnimation.cpp" />
+    <ClCompile Include="Animation2D\NormalBatAnimation.cpp" />
+    <ClCompile Include="Animation2D\PickaxAnimation.cpp" />
+    <ClCompile Include="Animation2D\PlayerAnimation.cpp" />
+    <ClCompile Include="Animation2D\PortalAnimation.cpp" />
+    <ClCompile Include="Animation2D\RedBatAnimation.cpp" />
+    <ClCompile Include="Animation2D\RedLotusAnimation.cpp" />
+    <ClCompile Include="Animation2D\ShortSwordSwing.cpp" />
+    <ClCompile Include="Animation2D\SkelAnimation.cpp" />
+    <ClCompile Include="Animation2D\SkelBowAnimation.cpp" />
+    <ClCompile Include="Animation2D\SkelSwordAnimation.cpp" />
+    <ClCompile Include="Animation2D\TestAnimation2D.cpp" />
+    <ClCompile Include="EditorManager.cpp" />
+    <ClCompile Include="GameObject\ArrowHitEffect.cpp" />
+    <ClCompile Include="GameObject\BackCloud.cpp" />
+    <ClCompile Include="GameObject\Banshee.cpp" />
+    <ClCompile Include="GameObject\BansheeBullet.cpp" />
+    <ClCompile Include="GameObject\BatBullet.cpp" />
+    <ClCompile Include="GameObject\Belial.cpp" />
+    <ClCompile Include="GameObject\BelialBullet.cpp" />
+    <ClCompile Include="GameObject\BelialLaser.cpp" />
+    <ClCompile Include="GameObject\BelialSword.cpp" />
+    <ClCompile Include="GameObject\Bird.cpp" />
+    <ClCompile Include="GameObject\BossDoor.cpp" />
+    <ClCompile Include="GameObject\BossEntranceMap.cpp" />
+    <ClCompile Include="GameObject\BossMap.cpp" />
+    <ClCompile Include="GameObject\Bullet.cpp" />
+    <ClCompile Include="GameObject\Character.cpp" />
+    <ClCompile Include="GameObject\Creature.cpp" />
+    <ClCompile Include="GameObject\DustEffect.cpp" />
+    <ClCompile Include="GameObject\EndingBack.cpp" />
+    <ClCompile Include="GameObject\EndingPortal.cpp" />
+    <ClCompile Include="GameObject\EndingTile.cpp" />
+    <ClCompile Include="GameObject\EndingTree.cpp" />
+    <ClCompile Include="GameObject\FrontCloud.cpp" />
+    <ClCompile Include="GameObject\Ghost.cpp" />
+    <ClCompile Include="GameObject\GiantNormalBat.cpp" />
+    <ClCompile Include="GameObject\GiantRedBat.cpp" />
+    <ClCompile Include="GameObject\Gold.cpp" />
+    <ClCompile Include="GameObject\Horse.cpp" />
+    <ClCompile Include="GameObject\JumpEffect.cpp" />
+    <ClCompile Include="GameObject\Monster.cpp" />
+    <ClCompile Include="GameObject\MonsterDestroyEffect.cpp" />
+    <ClCompile Include="GameObject\NormalBat.cpp" />
+    <ClCompile Include="GameObject\NormalMap1.cpp" />
+    <ClCompile Include="GameObject\NormalMap2.cpp" />
+    <ClCompile Include="GameObject\NormalMap3.cpp" />
+    <ClCompile Include="GameObject\NormalMap4.cpp" />
+    <ClCompile Include="GameObject\NormalMap5.cpp" />
+    <ClCompile Include="GameObject\NormalMap6.cpp" />
+    <ClCompile Include="GameObject\Player2D.cpp" />
+    <ClCompile Include="GameObject\RedBat.cpp" />
+    <ClCompile Include="GameObject\ShortSwordEffect.cpp" />
+    <ClCompile Include="GameObject\SkelBow.cpp" />
+    <ClCompile Include="GameObject\SkelBowAttack.cpp" />
+    <ClCompile Include="GameObject\SkelSword.cpp" />
+    <ClCompile Include="GameObject\SkelSwordAttack.cpp" />
+    <ClCompile Include="GameObject\TownBack.cpp" />
+    <ClCompile Include="main.cpp" />
+    <ClCompile Include="Scene\BossEntranceScene.cpp" />
+    <ClCompile Include="Scene\BossScene.cpp" />
+    <ClCompile Include="Scene\EditorDefaultScene.cpp" />
+    <ClCompile Include="Scene\EndingScene.cpp" />
+    <ClCompile Include="Scene\LoadingScene.cpp" />
+    <ClCompile Include="Scene\MainScene.cpp" />
+    <ClCompile Include="Scene\NormalScene.cpp" />
+    <ClCompile Include="Scene\NormalScene1.cpp" />
+    <ClCompile Include="Scene\NormalScene2.cpp" />
+    <ClCompile Include="Scene\NormalScene3.cpp" />
+    <ClCompile Include="Scene\NormalScene4.cpp" />
+    <ClCompile Include="Scene\NormalScene5.cpp" />
+    <ClCompile Include="Scene\NormalScene6.cpp" />
+    <ClCompile Include="Scene\TestSceneInfo.cpp" />
+    <ClCompile Include="Scene\TownScene.cpp" />
+    <ClCompile Include="Setting\DefaultSetting.cpp" />
+    <ClCompile Include="Setting\EngineShareSetting.cpp" />
+    <ClCompile Include="TransferInfo\TransferCharacterInfo.cpp" />
+    <ClCompile Include="UI\BossUI.cpp" />
+    <ClCompile Include="UI\CharacterHitUI.cpp" />
+    <ClCompile Include="UI\CharacterLBUI.cpp" />
+    <ClCompile Include="UI\CharacterLTUI.cpp" />
+    <ClCompile Include="UI\EndingUI.cpp" />
+    <ClCompile Include="UI\LoadingUI.cpp" />
+    <ClCompile Include="UI\MainUI.cpp" />
+    <ClCompile Include="UI\PlaySlotUI.cpp" />
+    <ClCompile Include="UI\SettingUI.cpp" />
+    <ClCompile Include="UI\StartSceneUI.cpp" />
+    <ClCompile Include="UI\TestUIWindow.cpp" />
+    <ClCompile Include="Window\Animation2DWindow.cpp" />
+    <ClCompile Include="Window\ClassWindow.cpp" />
+    <ClCompile Include="Window\ComponentWindow.cpp" />
+    <ClCompile Include="Window\DetailWindow.cpp" />
+    <ClCompile Include="Window\DetailWindow\CameraComponentWidgetList.cpp" />
+    <ClCompile Include="Window\DetailWindow\Collider2DWidgetList.cpp" />
+    <ClCompile Include="Window\DetailWindow\Collider3DWidgetList.cpp" />
+    <ClCompile Include="Window\DetailWindow\ColliderBox2DWidgetList.cpp" />
+    <ClCompile Include="Window\DetailWindow\ColliderLine2DWidgetList.cpp" />
+    <ClCompile Include="Window\DetailWindow\ColliderOBB2DWidgetList.cpp" />
+    <ClCompile Include="Window\DetailWindow\ColliderPixelWidgetList.cpp" />
+    <ClCompile Include="Window\DetailWindow\ColliderSphere2DWidgetList.cpp" />
+    <ClCompile Include="Window\DetailWindow\ColliderWidgetList.cpp" />
+    <ClCompile Include="Window\DetailWindow\ComponentWidgetList.cpp" />
+    <ClCompile Include="Window\DetailWindow\PrimitiveComponentWidgetList.cpp" />
+    <ClCompile Include="Window\DetailWindow\SceneComponentWidgetList.cpp" />
+    <ClCompile Include="Window\DetailWindow\SpriteComponentWidgetList.cpp" />
+    <ClCompile Include="Window\DetailWindow\TargetArmWidgetList.cpp" />
+    <ClCompile Include="Window\DetailWindow\TileMapComponentWidgetList.cpp" />
+    <ClCompile Include="Window\EditorUIWindow.cpp" />
+    <ClCompile Include="Window\ObjectWindow.cpp" />
+    <ClCompile Include="Window\SceneWindow.cpp" />
+    <ClCompile Include="Window\TestWindow.cpp" />
+    <ClCompile Include="Window\TileMapWindow.cpp" />
+    <ClCompile Include="Window\TransformWindow.cpp" />
+    <ClCompile Include="Window\UIWidgetEditor.cpp" />
+    <ClCompile Include="Window\UIWindowEditor.cpp" />
+    <ClCompile Include="Window\UI\DefaultUIWidgetList.cpp" />
+    <ClCompile Include="Window\UI\UIButtonWidgetList.cpp" />
+    <ClCompile Include="Window\UI\UIImageWidgetList.cpp" />
+    <ClCompile Include="Window\UI\UINumberWidgetList.cpp" />
+    <ClCompile Include="Window\UI\UIProgressBarWidgetList.cpp" />
+    <ClCompile Include="Window\UI\UITextWidgetList.cpp" />
+    <ClCompile Include="Window\UI\UIWidgetList.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Animation2D\AliceAnimation.h" />
+    <ClInclude Include="Animation2D\ArrowHitAnimation.h" />
+    <ClInclude Include="Animation2D\BansheeAnimation.h" />
+    <ClInclude Include="Animation2D\BansheeBulletAnimation.h" />
+    <ClInclude Include="Animation2D\BatBulletAnimation.h" />
+    <ClInclude Include="Animation2D\BelialBackAnimation.h" />
+    <ClInclude Include="Animation2D\BelialBulletAnimation.h" />
+    <ClInclude Include="Animation2D\BelialHandAnimation.h" />
+    <ClInclude Include="Animation2D\BelialHeadAnimation.h" />
+    <ClInclude Include="Animation2D\BelialLaserAnimation.h" />
+    <ClInclude Include="Animation2D\BelialSwordAnimation.h" />
+    <ClInclude Include="Animation2D\BirdAnimation.h" />
+    <ClInclude Include="Animation2D\CharacterAnimation.h" />
+    <ClInclude Include="Animation2D\DoorAnimation.h" />
+    <ClInclude Include="Animation2D\DustEffectAnimation.h" />
+    <ClInclude Include="Animation2D\GhostAnimation.h" />
+    <ClInclude Include="Animation2D\GiantNormalBatAnimation.h" />
+    <ClInclude Include="Animation2D\GiantRedBatAnimation.h" />
+    <ClInclude Include="Animation2D\GoldAnimation.h" />
+    <ClInclude Include="Animation2D\HorseAnimation.h" />
+    <ClInclude Include="Animation2D\JumpEffectAnimation.h" />
+    <ClInclude Include="Animation2D\MetalPlateAnimation.h" />
+    <ClInclude Include="Animation2D\MonsterDestroyAnimation.h" />
+    <ClInclude Include="Animation2D\NormalBatAnimation.h" />
+    <ClInclude Include="Animation2D\PickaxAnimation.h" />
+    <ClInclude Include="Animation2D\PlayerAnimation.h" />
+    <ClInclude Include="Animation2D\PortalAnimation.h" />
+    <ClInclude Include="Animation2D\RedBatAnimation.h" />
+    <ClInclude Include="Animation2D\RedLotusAnimation.h" />
+    <ClInclude Include="Animation2D\ShortSwordSwing.h" />
+    <ClInclude Include="Animation2D\SkelAnimation.h" />
+    <ClInclude Include="Animation2D\SkelBowAnimation.h" />
+    <ClInclude Include="Animation2D\SkelSwordAnimation.h" />
+    <ClInclude Include="Animation2D\TestAnimation2D.h" />
+    <ClInclude Include="Editor.h" />
+    <ClInclude Include="EditorManager.h" />
+    <ClInclude Include="GameObject\ArrowHitEffect.h" />
+    <ClInclude Include="GameObject\BackCloud.h" />
+    <ClInclude Include="GameObject\Banshee.h" />
+    <ClInclude Include="GameObject\BansheeBullet.h" />
+    <ClInclude Include="GameObject\BatBullet.h" />
+    <ClInclude Include="GameObject\Belial.h" />
+    <ClInclude Include="GameObject\BelialBullet.h" />
+    <ClInclude Include="GameObject\BelialLaser.h" />
+    <ClInclude Include="GameObject\BelialSword.h" />
+    <ClInclude Include="GameObject\Bird.h" />
+    <ClInclude Include="GameObject\BossDoor.h" />
+    <ClInclude Include="GameObject\BossEntranceMap.h" />
+    <ClInclude Include="GameObject\BossMap.h" />
+    <ClInclude Include="GameObject\Bullet.h" />
+    <ClInclude Include="GameObject\Character.h" />
+    <ClInclude Include="GameObject\Creature.h" />
+    <ClInclude Include="GameObject\DustEffect.h" />
+    <ClInclude Include="GameObject\EndingBack.h" />
+    <ClInclude Include="GameObject\EndingPortal.h" />
+    <ClInclude Include="GameObject\EndingTile.h" />
+    <ClInclude Include="GameObject\EndingTree.h" />
+    <ClInclude Include="GameObject\FrontCloud.h" />
+    <ClInclude Include="GameObject\Ghost.h" />
+    <ClInclude Include="GameObject\GiantNormalBat.h" />
+    <ClInclude Include="GameObject\GiantRedBat.h" />
+    <ClInclude Include="GameObject\Gold.h" />
+    <ClInclude Include="GameObject\Horse.h" />
+    <ClInclude Include="GameObject\JumpEffect.h" />
+    <ClInclude Include="GameObject\Monster.h" />
+    <ClInclude Include="GameObject\MonsterDestroyEffect.h" />
+    <ClInclude Include="GameObject\NormalBat.h" />
+    <ClInclude Include="GameObject\NormalMap1.h" />
+    <ClInclude Include="GameObject\NormalMap2.h" />
+    <ClInclude Include="GameObject\NormalMap3.h" />
+    <ClInclude Include="GameObject\NormalMap4.h" />
+    <ClInclude Include="GameObject\NormalMap5.h" />
+    <ClInclude Include="GameObject\NormalMap6.h" />
+    <ClInclude Include="GameObject\Player2D.h" />
+    <ClInclude Include="GameObject\RedBat.h" />
+    <ClInclude Include="GameObject\ShortSwordEffect.h" />
+    <ClInclude Include="GameObject\SkelBow.h" />
+    <ClInclude Include="GameObject\SkelBowAttack.h" />
+    <ClInclude Include="GameObject\SkelSword.h" />
+    <ClInclude Include="GameObject\SkelSwordAttack.h" />
+    <ClInclude Include="GameObject\TownBack.h" />
+    <ClInclude Include="resource.h" />
+    <ClInclude Include="Scene\BossEntranceScene.h" />
+    <ClInclude Include="Scene\BossScene.h" />
+    <ClInclude Include="Scene\EditorDefaultScene.h" />
+    <ClInclude Include="Scene\EndingScene.h" />
+    <ClInclude Include="Scene\LoadingScene.h" />
+    <ClInclude Include="Scene\MainScene.h" />
+    <ClInclude Include="Scene\NormalScene.h" />
+    <ClInclude Include="Scene\NormalScene1.h" />
+    <ClInclude Include="Scene\NormalScene2.h" />
+    <ClInclude Include="Scene\NormalScene3.h" />
+    <ClInclude Include="Scene\NormalScene4.h" />
+    <ClInclude Include="Scene\NormalScene5.h" />
+    <ClInclude Include="Scene\NormalScene6.h" />
+    <ClInclude Include="Scene\TestSceneInfo.h" />
+    <ClInclude Include="Scene\TownScene.h" />
+    <ClInclude Include="Setting\DefaultSetting.h" />
+    <ClInclude Include="Setting\EngineShareSetting.h" />
+    <ClInclude Include="TransferInfo\TransferCharacterInfo.h" />
+    <ClInclude Include="UI\BossUI.h" />
+    <ClInclude Include="UI\CharacterHitUI.h" />
+    <ClInclude Include="UI\CharacterLBUI.h" />
+    <ClInclude Include="UI\CharacterLTUI.h" />
+    <ClInclude Include="UI\EndingUI.h" />
+    <ClInclude Include="UI\LoadingUI.h" />
+    <ClInclude Include="UI\MainUI.h" />
+    <ClInclude Include="UI\PlaySlotUI.h" />
+    <ClInclude Include="UI\SettingUI.h" />
+    <ClInclude Include="UI\StartSceneUI.h" />
+    <ClInclude Include="UI\TestUIWindow.h" />
+    <ClInclude Include="Window\Animation2DWindow.h" />
+    <ClInclude Include="Window\ClassWindow.h" />
+    <ClInclude Include="Window\ComponentWindow.h" />
+    <ClInclude Include="Window\DetailWindow.h" />
+    <ClInclude Include="Window\DetailWindow\CameraComponentWidgetList.h" />
+    <ClInclude Include="Window\DetailWindow\Collider2DWidgetList.h" />
+    <ClInclude Include="Window\DetailWindow\Collider3DWidgetList.h" />
+    <ClInclude Include="Window\DetailWindow\ColliderBox2DWidgetList.h" />
+    <ClInclude Include="Window\DetailWindow\ColliderLine2DWidgetList.h" />
+    <ClInclude Include="Window\DetailWindow\ColliderOBB2DWidgetList.h" />
+    <ClInclude Include="Window\DetailWindow\ColliderPixelWidgetList.h" />
+    <ClInclude Include="Window\DetailWindow\ColliderSphere2DWidgetList.h" />
+    <ClInclude Include="Window\DetailWindow\ColliderWidgetList.h" />
+    <ClInclude Include="Window\DetailWindow\ComponentWidgetList.h" />
+    <ClInclude Include="Window\DetailWindow\PrimitiveComponentWidgetList.h" />
+    <ClInclude Include="Window\DetailWindow\SceneComponentWidgetList.h" />
+    <ClInclude Include="Window\DetailWindow\SpriteComponentWidgetList.h" />
+    <ClInclude Include="Window\DetailWindow\TargetArmWidgetList.h" />
+    <ClInclude Include="Window\DetailWindow\TileMapComponentWidgetList.h" />
+    <ClInclude Include="Window\EditorUIWindow.h" />
+    <ClInclude Include="Window\ObjectWindow.h" />
+    <ClInclude Include="Window\SceneWindow.h" />
+    <ClInclude Include="Window\TestWindow.h" />
+    <ClInclude Include="Window\TileMapWindow.h" />
+    <ClInclude Include="Window\TransformWindow.h" />
+    <ClInclude Include="Window\UIWidgetEditor.h" />
+    <ClInclude Include="Window\UIWindowEditor.h" />
+    <ClInclude Include="Window\UI\DefaultUIWidgetList.h" />
+    <ClInclude Include="Window\UI\UIButtonWidgetList.h" />
+    <ClInclude Include="Window\UI\UIImageWidgetList.h" />
+    <ClInclude Include="Window\UI\UINumberWidgetList.h" />
+    <ClInclude Include="Window\UI\UIProgressBarWidgetList.h" />
+    <ClInclude Include="Window\UI\UITextWidgetList.h" />
+    <ClInclude Include="Window\UI\UIWidgetList.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="AR41Editor.rc" />
+  </ItemGroup>
+  <ItemGroup>
+    <Image Include="icon1.ico" />
+  </ItemGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+</Project>

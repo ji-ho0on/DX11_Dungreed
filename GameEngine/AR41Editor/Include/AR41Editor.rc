@@ -1,0 +1,105 @@
+// Microsoft Visual C++ generated resource script.
+//
+#include "resource.h"
+
+#define APSTUDIO_READONLY_SYMBOLS
+/////////////////////////////////////////////////////////////////////////////
+//
+// Generated from the TEXTINCLUDE 2 resource.
+//
+#include "winres.h"
+
+/////////////////////////////////////////////////////////////////////////////
+#undef APSTUDIO_READONLY_SYMBOLS
+
+/////////////////////////////////////////////////////////////////////////////
+// 한국어(대한민국) resources
+
+#if !defined(AFX_RESOURCE_DLL) || defined(AFX_TARG_KOR)
+LANGUAGE LANG_KOREAN, SUBLANG_DEFAULT
+#pragma code_page(949)
+
+#ifdef APSTUDIO_INVOKED
+/////////////////////////////////////////////////////////////////////////////
+//
+// TEXTINCLUDE
+//
+
+1 TEXTINCLUDE 
+BEGIN
+    "resource.h\0"
+END
+
+2 TEXTINCLUDE 
+BEGIN
+    "#include ""winres.h""\r\n"
+    "\0"
+END
+
+3 TEXTINCLUDE 
+BEGIN
+    "\r\n"
+    "\0"
+END
+
+#endif    // APSTUDIO_INVOKED
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Icon
+//
+
+// Icon with lowest ID value placed first to ensure application icon
+// remains consistent on all systems.
+IDI_ICON1               ICON                    "icon1.ico"
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Menu
+//
+
+IDR_MENU1 MENU
+BEGIN
+    POPUP "파일(&F)"
+    BEGIN
+        MENUITEM "Scene 저장(&S)",                ID_FILE_SCENE_SAVE
+        MENUITEM "Scene 불러오기(&O)",              ID_FILE_SCENE_OPEN
+        MENUITEM "Exit(&X)",                    ID_FILE_EXIT
+    END
+    POPUP "창(&W)"
+    BEGIN
+        MENUITEM "ObjectWindow",                ID_WINDOW_OBJECT
+        MENUITEM "ClassWindow",                 ID_WINDOW_CLASS
+        MENUITEM "ComponentWindow",             ID_WINDOW_COMPONENT
+        MENUITEM "TransformWindow",             ID_WINDOW_TRANSFORM
+        MENUITEM "SceneWindow",                 ID_WINDOW_SCENE
+        MENUITEM "DetailWindow",                ID_WINDOW_DETAIL
+        MENUITEM "AnimationWindow",             ID_WINDOW_ANIMATION
+        MENUITEM "UIWindowEditor",              ID_WINDOW_UIWINDOWEDITOR
+        MENUITEM "UIWidgetEditor",              ID_WINDOW_UIWIDGETEDITOR
+        MENUITEM "TileMapWindow",               ID_WINDOW_TILEMAP
+    END
+    POPUP "오브젝트(&G)"
+    BEGIN
+        MENUITEM "GameObject Empty",            ID_OBJECT_EMPTY
+        MENUITEM "GameObject",                  ID_OBJECT
+    END
+END
+
+#endif    // 한국어(대한민국) resources
+/////////////////////////////////////////////////////////////////////////////
+
+
+
+#ifndef APSTUDIO_INVOKED
+/////////////////////////////////////////////////////////////////////////////
+//
+// Generated from the TEXTINCLUDE 3 resource.
+//
+
+
+/////////////////////////////////////////////////////////////////////////////
+#endif    // not APSTUDIO_INVOKED
+
